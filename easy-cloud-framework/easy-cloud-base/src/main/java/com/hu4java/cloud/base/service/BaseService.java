@@ -7,4 +7,6 @@ public interface BaseService<T> {
 
 
     void save(T entity);
+
+    T getById(Long id);
 }

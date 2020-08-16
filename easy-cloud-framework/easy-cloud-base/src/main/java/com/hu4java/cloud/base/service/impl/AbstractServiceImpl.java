@@ -17,4 +17,9 @@ public class AbstractServiceImpl<T, M extends BaseMapper<T>> implements BaseServ
     public void save(T entity) {
         mapper.insert(entity);
     }
+
+    @Override
+    public T getById(Long id) {
+        return mapper.selectById(id);
+    }
 }
