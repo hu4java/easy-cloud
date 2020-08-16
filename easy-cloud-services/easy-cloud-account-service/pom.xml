@@ -4,11 +4,11 @@
     <parent>
         <artifactId>easy-cloud-services</artifactId>
         <groupId>com.hu4java.cloud</groupId>
-        <version>0.0.1</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>easy-cloud-account-service</artifactId>
-    <version>0.0.1</version>
+
     <name>easy-cloud-account-service</name>
     <description>Easy Cloud Account Service</description>
 
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.hu4java.cloud</groupId>
             <artifactId>easy-cloud-account-api</artifactId>
-            <version>0.0.1</version>
+            <version>1.0.0</version>
         </dependency>
         <!--<dependency>
             <groupId>com.alibaba.cloud</groupId>

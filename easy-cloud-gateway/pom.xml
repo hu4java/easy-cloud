@@ -4,12 +4,11 @@
     <parent>
         <artifactId>easy-cloud</artifactId>
         <groupId>com.hu4java.cloud</groupId>
-        <version>0.0.1</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>easy-cloud-gateway</artifactId>
-    <version>0.0.1</version>
-    <name>easy-cloud-gateway</name>
+
     <description>Easy Cloud Gateway</description>
 
     <properties>

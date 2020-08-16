@@ -5,7 +5,7 @@
 
     <groupId>com.hu4java.cloud</groupId>
     <artifactId>easy-cloud</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <modules>
         <module>easy-cloud-framework</module>
         <module>easy-cloud-services</module>
