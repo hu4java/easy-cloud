@@ -1,0 +1,8 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: easy-cloud-auth-center
+  profiles:
+    active: dev

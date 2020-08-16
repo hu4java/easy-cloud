@@ -1,0 +1,9 @@
+server:
+  port: 8800
+
+spring:
+  application:
+    name: easy-cloud-gateway
+  profiles:
+    active: dev
+
