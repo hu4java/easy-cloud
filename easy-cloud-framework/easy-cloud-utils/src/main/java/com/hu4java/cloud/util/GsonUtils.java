@@ -81,6 +81,17 @@ public class GsonUtils {
         return GSON.fromJson(json, TypeToken.getParameterized(Map.class, classOfK, classOfV).getType());
     }
 
+    /**
+     * 转成Map
+     * @param json
+     * @param classOfT
+     * @param classOfK
+     * @param classOfV
+     * @param <T>
+     * @param <K>
+     * @param <V>
+     * @return
+     */
     public static <T extends Map<K, V>, K, V> T toMap(String json, Class<T> classOfT, Class<K> classOfK, Class<V> classOfV) {
         return GSON.fromJson(json, TypeToken.getParameterized(classOfT, classOfK, classOfV).getType());
     }
